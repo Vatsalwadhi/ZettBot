@@ -118,4 +118,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 For any issues or inquiries, please contact [vats](mailto:alwadhiv@gmail.com).
 ```
 
-Feel free to adjust the content to better match your project's specifics. Save this as `README.md` in your repository.
