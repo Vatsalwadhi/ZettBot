@@ -116,5 +116,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Contact
 
 For any issues or inquiries, please contact [vats](mailto:alwadhiv@gmail.com).
-```
-
