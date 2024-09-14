@@ -115,7 +115,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact
 
-For any issues or inquiries, please contact [youremail@example.com](mailto:alwadhiv@gmail.com).
+For any issues or inquiries, please contact [vats](mailto:alwadhiv@gmail.com).
 ```
 
 Feel free to adjust the content to better match your project's specifics. Save this as `README.md` in your repository.
