@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "zettbot-hwct",
+  "private_key_id": "be4c22d9aff2923ddde16c5b9e54a16654b7af53",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCwBeJcxbfOAH5p\n3u1iqdotGcgvdWca93dpPLemGK8LsHIZ9Szi1QlL+AemkhBIXGMxwQYiy/REDTMU\nOwdwBXsX0zlhJMAnyZPotlYqCj0v34B1DhU/kIGQmmMz/lKkv8sFs45XTQBbEtM7\nhDqKQjEtErCubIcx1oEOPpqiw5RwwE6QEUiwZyBVcr+BjCYgzXrOqnS14uDKFNM2\nFfquv1qwTxRvdUmaLLcUuKb4MnQdJ+hm6ndhUEK7/VN0tLLaHUh6t8z0kvnSrzs+\nzmJNcJnigOQzzc5vUgQO2NJs0F0xb2C48g99MVlpAxrnhArMZlkP6PSo8HkTINlt\nwX3iuGQ3AgMBAAECggEANCzqVhl9TCC1V+hucQpr02aLAhZIw6OKz7ThsugqKsrY\nZ31XGr2PDeetTOCK1wgblwniKbpO40UOWPbOU5QsUnmXzoW4N5L2tsolbDywuloD\nl67e+YJ6BUTeFvFRyefX5A6/KH14l4ZS+pdNSuIn9XZOzMT6pfkxM+m2qHxUqb64\nqGEwZzuAcWcW/23U/YcUDEQV4UtczfK52V1KTJMZVolc+IiM7VGGJRiJnnvKbyeX\nS/5VLnbh9cwEIIuo9vZ6fy/rhYlzoZ6tu6xmQVCUuZgDfbntdfDiy9fN1HGvKKMA\nJSgXjy0gHtRMnGRCttBH0+d5atuQZBdvJLJ0gVtqoQKBgQDo2tmrZORy5MXAniZx\n0s5d77vCf6j16yaZrMhpVkfEwda13IQrp67WpBAk4AmrFW7YK+k9AqVGS4oYmJZ5\n4+ndl8kiMgNEJbriEDp8L/p1tquqR9W+BoRjAVI5p4qMOfaSDzyOtYQ5saD6zJsi\nIeZsA/fLTCjrvb2FrrcjwOwbTwKBgQDBhOht7UmYAB0VkwaNVPrmvk0n2UbvrUFA\nC5FcZbS71j1I6Q38AHskiXNdPBCGd7zGEagMeQYD/p30ZtWyMW5bjSm48mlsu7XC\np95HFYsll5g5Im3V2N2/4Vgv+WLCyF7w+hfNl56Vm/eS4NXJLqoCPBq8DtSigJan\nNyAoy5ZOmQKBgQDgWGq7bVuFLtEwga78n2RgsOcvv5tkRAlOql/0zUIcWb2qPinB\nfa8/8ZX0UT4/bUj8UWJIe9IM5h7JD8p66ZGbA/CvV4w6Djf+MjCHEhq3ayX9y3Qt\nv02xrcYw8jDUZcwgcTmhLVWV2IQG3zbgLdU5YKFPZ7NNXePJdsnQUsGolQKBgQCN\nln6wnyJvUfX1qQLsOTbxyF6PP0vFZNAO2efa4Jchr5hbVhjjPj7a9q4vkxjMKaM2\nkAiSR6H9HjfXb73+iGgkF95k8QfthFFyQHxDKiIKuSWo9+XAxtFH6MorH54AwbWl\nPnZX+A0RjXHQRyxj6/57cBpnabptwwN3CMBA2OP6UQKBgBKT2mccsXBCcMFbS2JW\nt4Iqv2ajKs6q7QbTdXzvCpU93e8MUOVLDqKR2evYI/EbIBlrX4BSfs6owATNv1Uf\nsizHHd7u6Zk+MdgbQE15GOFgAJlPU4s3E9m1eLDHikKEJFIkUj0m+I1tdEONfwYz\nLKWof6r+9Oyz7IZmW+2l1cqO\n-----END PRIVATE KEY-----\n",
+  "client_email": "zettbot@zettbot-hwct.iam.gserviceaccount.com",
+  "client_id": "109458586811829830443",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/zettbot%40zettbot-hwct.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
