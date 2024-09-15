@@ -1,3 +1,5 @@
+Here’s the updated `README.md` including the new functionality:
+
 ```markdown
 # Zettbot
 
@@ -8,6 +10,8 @@ Zettbot is a versatile application designed to help users manage and track their
 - **Todo List Management:** Add, remove, and manage your tasks effectively.
 - **Expense Tracking:** Add and categorize expenses, and view monthly summaries.
 - **User-specific Data:** Each user has their own data and settings, managed via user IDs.
+- **Date-Specific Transactions:** Retrieve transactions for a specific date.
+- **Dialogflow Integration:** Use Dialogflow for natural language processing to interact with the bot.
 
 ## Installation
 
@@ -16,6 +20,7 @@ Zettbot is a versatile application designed to help users manage and track their
 - Java Development Kit (JDK) 11 or higher
 - MySQL Server
 - Maven
+- Dialogflow account
 - Your favorite IDE (e.g., IntelliJ IDEA, Eclipse)
 
 ### Clone the Repository
@@ -69,9 +74,20 @@ cd zettbot
       );
       ```
 
+### Set Up Dialogflow
+
+1. **Create a Dialogflow Agent:**
+    - Go to [Dialogflow Console](https://dialogflow.cloud.google.com/).
+    - Create a new agent and set up intents and entities to handle user queries about expenses and todos.
+
+2. **Configure API Key:**
+    - Obtain your Dialogflow API key and integrate it into your application by updating the `DialogflowService` class.
+
 ## Configuration
 
-**Database Connection:** Update the database connection details in the source code if necessary. The connection settings are located in the `Moneyplanner` and `todolist` classes.
+**Database Connection:** Update the database connection details in the source code if necessary. The connection settings are located in the `ChatBotGUI` class and other related classes.
+
+**Dialogflow Integration:** Ensure your Dialogflow API key is correctly set up in the `DialogflowService` class for proper communication.
 
 ## Running the Application
 
@@ -84,26 +100,23 @@ cd zettbot
 2. **Run the Application:**
 
     ```bash
-    mvn exec:java -Dexec.mainClass="home.Moneyplanner" -Dexec.args="1"
+    mvn exec:java -Dexec.mainClass="home.ChatBotGUI" -Dexec.args="1"
     ```
 
-    Replace `"home.Moneyplanner"` with the main class you want to run, and `"1"` with the appropriate user ID.
+    Replace `"home.ChatBotGUI"` with the main class you want to run, and `"1"` with the appropriate user ID.
 
 ## Usage
 
-- **Moneyplanner:**
-    - Manage and track expenses.
-    - View total monthly expenses.
-    - Add and remove transactions.
-
-- **Todo List:**
-    - Add and remove tasks.
-    - Manage task list specific to each user.
+- **ChatBotGUI:**
+    - Interact with the bot to manage your todos and track expenses.
+    - Ask about 'monthly expenses', 'specific expenses', or 'transactions on [date]'.
+    - The bot uses Dialogflow to interpret user inputs and provide appropriate responses.
 
 ## Troubleshooting
 
 - **Database Connection Issues:** Ensure that your MySQL server is running and the connection details are correct in the source code.
 - **Table Not Found Errors:** Verify that the database schema and tables are correctly created as per the SQL scripts provided.
+- **Dialogflow Integration Issues:** Make sure your Dialogflow API key is correctly set up and the agent is properly configured.
 
 ## Contributing
 
