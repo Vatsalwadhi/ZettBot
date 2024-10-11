@@ -1,6 +1,3 @@
-Here’s the updated `README.md` including the new functionality:
-
-```markdown
 # Zettbot
 
 Zettbot is a versatile application designed to help users manage and track their tasks and expenses efficiently. This application provides a user-friendly interface to manage todos, track expenses, and visualize financial data. It integrates with a MySQL database to store and manage user data.
